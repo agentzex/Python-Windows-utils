@@ -1,4 +1,4 @@
-# Some machine info gathering and post exploitation utils written in Python
+# Some machine info gathering and post exploitation tools written in Python
 Some of these functions requires to be run as admin\root 
 
 *More cool stuff coming soon :)
