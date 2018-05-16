@@ -15,7 +15,7 @@ def adjust_system_time(year, month, dayOfWeek, day, hour, minute, second, millse
     try:
         win32api.SetSystemTime(year, month, dayOfWeek, day, hour, minute, second, millseconds)
     except Exception, e:
-        print "error adjusting the system time: " + str(e)
+        print "error adjusting the system time: " + str(e.args)
 
 
 def adjust_system_timezone(time_zone_tuple):
@@ -23,12 +23,12 @@ def adjust_system_timezone(time_zone_tuple):
     try:
         adujst_time_privilege(win32security.SE_TIME_ZONE_NAME)
     except Exception, e:
-        print "error getting the privilege token: " + str(e)
+        print "error getting the privilege token: " + str(e.args)
 
     try:
         win32api.SetTimeZoneInformation(time_zone_tuple)
     except Exception, e:
-        print "error setting the new timezone: " + str(e)
+        print "error setting the new timezone: " + str(e.args)
 
 if __name__ == "__main__":
     # Install win32api lib before using these functions!
