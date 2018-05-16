@@ -3,7 +3,7 @@ Some of these functions requires to be run as admin\root
 
 *More cool stuff coming soon :)
 
-HostsFileEditor.py - can be used to add or remove hostanmes from the hosts file or restore the hosts file to its default form (windows,osx and linux supported)  
-WindowsVersionFetcher.py - can be used to fetch windows version and architecure, including windows 10 releases  
-AntiVirusDetector.py - can be used to retrieve a list of found AntiViruses products on a machine  
-WindowsTimeAdjuster.py - can be used to adjust the windows system time and timezone
+hosts_file_editor.py - can be used to add or remove hostanmes from the hosts file or restore the hosts file to its default form (windows,osx and linux supported)  
+windows_version_fetcher.py - can be used to fetch windows version and architecure, including windows 10 releases  
+antivirus_detector.py - can be used to retrieve a list of found AntiViruses products on a machine  
+windows_time_adjuster.py - can be used to adjust the windows system time and timezone
