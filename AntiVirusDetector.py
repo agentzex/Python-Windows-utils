@@ -3,20 +3,22 @@ import psutil
 
 
 AV_TO_PROCESS_NAME = OrderedDict()
-#AntiViruses processes names:
 
+#AntiViruses processes names:
 AV_TO_PROCESS_NAME["AdAwareService.exe"] = "AdAware"
 AV_TO_PROCESS_NAME["AvastSvc.exe"] = "Avast"
 AV_TO_PROCESS_NAME["AVGSvc.exe"] = "AVG"
 AV_TO_PROCESS_NAME["Avira.ServiceHost.exe"] = "Avira"
 AV_TO_PROCESS_NAME["vsserv.exe"] = "BitDefender"
+AV_TO_PROCESS_NAME["BullGuardCore.exe"] = "BullGuard"
 AV_TO_PROCESS_NAME["cmdagent.exe"] = "Comodo"
 AV_TO_PROCESS_NAME["EMET_Service.exe"] = "Windows Enhanced Mitigation Experience Toolkit"
 AV_TO_PROCESS_NAME["ekrn.exe"] = "ESET"
-AV_TO_PROCESS_NAME["GDFirewallTray.exe"] = "GData"
 AV_TO_PROCESS_NAME["fshoster32.exe"] = "F-secure"
+AV_TO_PROCESS_NAME["GDFirewallTray.exe"] = "GData"
 AV_TO_PROCESS_NAME["hmpalert.exe"] = "Hitmanpro"
 AV_TO_PROCESS_NAME["avp.exe"] = "Kaspersky"
+AV_TO_PROCESS_NAME["K7TSMngr.exe"] = "K7"
 AV_TO_PROCESS_NAME["MBAMService.exe"] = "Malwarebytes"
 AV_TO_PROCESS_NAME["mcapexe.exe"] = "Mcafee"
 AV_TO_PROCESS_NAME["nsbu.exe"] = "Norton"
