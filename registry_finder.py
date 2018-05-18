@@ -4,7 +4,7 @@ import re
 
 def find_program_uninstall_path(program_to_search):
     # Use this to search for the uninstall paths of a given program name in all the known uninstall
-    # registry paths, like Windows "add or remove program" does.
+    # registry paths, like Windows "Add/Remove Programs" does.
     found_paths = []
     program_to_search = program_to_search.lower()
     registry_paths = {
@@ -81,6 +81,7 @@ def check_key(key, sub_key, found_paths, registry_value_name, program_to_search)
     except WindowsError, e:
         print str(e.args)
     return found_paths
+
 
 if __name__ == "__main__":
 
