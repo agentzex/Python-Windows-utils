@@ -72,8 +72,8 @@ if __name__ == "__main__":
     # These function can help you register or delete an executable on the windows startup directory or on windows registry (under
     # HKCU\Software\Microsoft\Windows\CurrentVersion\Run)
 
-    # If you are registering a python script and wish to run it silently (i.e. - so no console window will appear on screen),
-    # then simply save it as .pyw instead of .py
+    # If you are registering a python script and wish for it to run silently (i.e. - so no console window will appear on screen, when windows boots),
+    # then simply save it in .pyw format instead of .py
 
     #Examples:
     #register_on_startup_directory("C:\Users\\" + os.getenv("USERNAME") + "\Desktop\\foo.py", "-p param1")
