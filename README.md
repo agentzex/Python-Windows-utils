@@ -1,7 +1,6 @@
 # Some machine info gathering and post exploitation tools written in Python
-Some of these functions requires to be run as admin\root 
-
-* More cool stuff coming soon :)
+* Some of these functions requires to be run as admin\root 
+** More cool stuff coming soon :)
 
 hosts_file_editor.py - can be used to add or remove hostanmes from the hosts file or restore the hosts file to its default form (windows,osx and linux supported)    
   
