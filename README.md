@@ -12,3 +12,6 @@ antivirus_detector.py - can be used to retrieve a list of found AntiViruses prod
 windows_time_adjuster.py - can be used to adjust the windows system time and timezone    
   
 windows_exec_startup_register.py - can be used to register or delete an executable on the windows startup directory or on windows registry startup key  
+  
+registry_finder.py - can be used to search for programs install and uninstall path strings in the windows registry (like Windows "Add/Remove Programs")  
+  
