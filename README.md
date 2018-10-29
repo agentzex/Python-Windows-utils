@@ -14,4 +14,6 @@ windows_time_adjuster.py - can be used to adjust the windows system time and win
 windows_exe_startup_register.py - can be used to register or delete an executable on the windows startup directory or on windows registry startup key  
   
 registry_finder.py - can be used to search for programs installation and uninstall path strings in the windows registry (like Windows "Add/Remove Programs")
+
+svchost_search.py - can be used to find details about services hosted in svchost.exe processes on Windows
   
